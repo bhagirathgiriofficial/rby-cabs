@@ -1,0 +1,278 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap');
+*{
+	box-sizing: border-box;
+	padding:0;
+	margin: 0;
+}
+body{
+	font-family: 'Raleway' ,'sans-serif';
+	color: #333;
+	justify-content: center;
+	font-weight: 600;
+}
+.navbar-toggler-icon {
+	background-image: url(data:image/svg+xml,%3csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000…p='round' stroke-miterlimit='10' d='M47h22M4 15h22M423h22'/%3e%3c/svg%3e');
+}
+.navbar-toggler-icon:focus{
+	outline: none;
+	border:none
+}
+/* Navbar container */ 
+
+#custom-navbar .nav-item a
+{
+	color:white;
+	margin: 5px;
+	display: inline-block;
+}
+.navbar-top{
+	background: rgba(20, 23, 25,1)!important;
+	position: static;
+}
+.navbar-scroll{
+	background: rgba(20, 23, 25,0.8)!important;	
+	position: fixed;
+	top:0;
+	width: 100%;
+	z-index: 99999;
+}
+hr{
+	background: rgba(20, 23, 25,0.9)!important;	
+}
+/* --------------  */
+/* Slider Container */
+.slider-container{
+	transition: 0.2s;
+}
+/* ---------------  */
+/*home css-----------------------------------------------------------*/
+.new h5{
+	font-weight: 700px;
+	color: #000;
+}
+
+.brand-icon{
+	font-size: 40px;
+	color: #fff;
+}
+/*.toggler-btn, .nav-link, .navbar-brand{
+	color:white!important;
+}*/
+/* On mouse-over, add a deeper shadow */
+.card1:hover {
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+.carousel-item ,.img-fluid{
+	width: 100%;
+	height: 500px;
+}
+.card1 {
+	/* Add shadows to create the "card" effect */
+	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+	transition: 0.3s;
+}
+.footer-link{
+	list-style: none;	
+}
+.footer-link li a{
+	color:white!important;
+	display: block;
+	margin-top: 10px;
+}
+footer h3{
+	color: #fff;
+	margin-bottom: 10px;
+	margin-top: 10px;
+}
+footer form input{
+	width:60%!important;
+	background-color: #343a40 !important: 
+	border-right:0px;
+}
+footer form button{
+	border-radius: 0px;
+}
+.s-links i{
+	color: #fff !important;
+	margin-right: 30px;
+}
+/*--------------------------------------------------------Home Ends*/
+/*About Css Starts*/
+/*About section*/
+.about-section{
+	padding:50px 0px;
+}
+.about-section h1{
+	font-weight: 600;
+}
+.about-inner{
+	margin-top: 10px; 
+	text-align: justify;
+}
+.about-inner p{
+	line-height: 30px;
+}
+
+/*About css ends*/
+/*Contact css starts*/
+/*Contact Form*/
+.form-outer{
+	margin-top: 50px; 
+}
+.form-outer input, .form-outer select{
+	height: 45px;
+	border-radius: 0px;
+	margin-bottom: 30px;
+}
+.form-outer textarea{
+	height: 220px;
+	margin-bottom: 30px;
+}
+.form-outer button{
+	border-radius: 20px;
+	padding:7px 30px;
+}
+/*hover for arrow*/
+.form-outer button .fa{
+	transition: 1s;
+}
+.form-outer button:hover .fa{
+	transform: translate(20px);
+}
+/*contact ends*/
+/*Booking css starts*/
+.form-outer input .book{
+	height: 45px;
+	border-radius: 0px;
+	margin-bottom: 30px;
+	margin-left: 20px;
+}
+/*booking ends css*/
+/*Catalouge properties same*/
+/*Blog css starts*/
+/* Blog Section*/
+.site-title h2{
+	font-size: 25px;
+	border-bottom: 1px solid black;
+	display: table; 
+}
+.blog-list{
+	margin-bottom: 50px;
+	margin-top:50px;
+}
+.blog-list h4{
+	font-size: 17px;
+	font-weight: bold;	
+}
+.blog-list p{
+	font-size: 18px;
+	color:#cdcbcb;
+}
+.blog-list h6{
+	font-size: 13px;
+	font-weight: 100;
+	color: #cdcbcb;
+}
+.blog-list img{
+	height:auto;
+}
+.blog-list a{
+	text-decoration: none;
+	color:black;
+}
+.blog-list a:hover{
+	color: grey;
+}
+/*Popular posts css*/
+.post-list{
+	margin-top: 40px !important;
+}
+.post-list h3{
+	color:#cdcbcb;
+	margin-right: 15px; 
+}
+.post-list p{
+	font-size: 11px;
+	word-spacing: 2px;
+}
+/*Blog ends*/
+/*Blog 1 css starts*/
+/*commment list css*/
+.comment-list{
+	padding-top: 30px;
+	padding-bottom: 20px;
+}
+.comment-list h4{
+	font-size:16px;
+	font-weight: bold;
+}
+.commnent-list h6{
+	font-size: 12px;
+	color:grey;
+}
+.comment-list p{
+	margin-top:30px !important; 	
+	font-size: 13px;
+}
+.comment-list button{
+	padding:5px 10px;
+	font-size: 15px;
+}
+.comment-form input,{
+	height: 50px;
+	border-radius: 25px;
+}
+.comment-form textarea{
+	border-radius: 25px;
+}
+.comment-form button{
+	padding:15px 25px;
+	border-radius: 25px; 
+}
+.adjust img{
+	width:100%;
+	margin-bottom:20px; 
+}
+.single-post {
+	font-size: 30px;
+}
+.single-post .col-lg-8 p{
+	font-size: 14px;
+	color: lightgrey;
+}
+/*image of comment */
+.p-4 img{
+	height: 30%;
+}
+/*-------------------*/
+
+/*blog 1 css ends*/
+/* footer container */
+footer{
+	background-color: rgba(20, 23, 25,1);
+	color: white;
+}
+footer p{
+	letter-spacing: 0.5px;
+}
+.quick-links{
+	list-style: none;
+}
+.quick-links a{
+	color: inherit!important;
+	text-decoration: none;
+}
+.quick-links a:hover{
+	text-decoration: none;
+}
+.quick-links li{
+	transition: 0.5s;
+	color:white;
+	margin: 5px;
+	margin-left: 0px;
+}
+.quick-links li:hover{
+	margin-left: 5px;
+}
+
+/* ---------------- */

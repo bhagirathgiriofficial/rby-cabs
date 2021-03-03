@@ -1,0 +1,17 @@
+@media only screen and (min-width: 0px) and (max-width: 320px) {
+  .brand-icon {
+    font-size: 20px;
+  }
+  .navbar-scoll {
+    top: 21px !important;
+  }
+  h2 {
+    font-size: 1.5rem;
+  }
+  .slider-container {
+    height: 300px;
+  }
+  .slider-container .carousel-item img {
+    height: 300px;
+  }
+}
